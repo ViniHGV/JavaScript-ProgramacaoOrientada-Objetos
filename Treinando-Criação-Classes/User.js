@@ -6,5 +6,8 @@ class User{
     }
     Login = function (email,senha){
 
+        if(email == this.email && password == this.password){
+            console.log("Login success !!")
+        }
     }
 }
