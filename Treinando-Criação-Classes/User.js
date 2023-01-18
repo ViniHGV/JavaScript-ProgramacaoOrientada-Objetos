@@ -8,6 +8,8 @@ class User{
 
         if(email == this.email && password == this.password){
             console.log("Login success !!")
+        }else{
+            console.log("Error login !!")
         }
     }
 }

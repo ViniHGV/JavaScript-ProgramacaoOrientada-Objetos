@@ -8,4 +8,7 @@ class Product{
     addToStock = function(quantity){
         inStock += quantity
     }
+    calculateDiscont = function(price){
+        
+    }
 }
