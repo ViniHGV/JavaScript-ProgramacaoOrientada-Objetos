@@ -16,3 +16,5 @@ eragon.publish()
 
 console.log(eragon)
 console.log(eldest)
+
+console.log(eragon instanceof Book)
