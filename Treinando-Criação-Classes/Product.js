@@ -9,6 +9,9 @@ class Product{
         inStock += quantity
     }
     calculateDiscont = function(price){
-        
+        if (price > 20){
+            price *0.20
+            return price
+        }
     }
 }
