@@ -7,6 +7,7 @@ class Product{
     }
     addToStock = function(quantity){
         inStock += quantity
+        return inStock
     }
     calculateDiscont = function(price){
         if (price > 20){
