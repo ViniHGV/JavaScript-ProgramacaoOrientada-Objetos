@@ -4,7 +4,7 @@ class User{
         this.email = email
         this.password = password
     }
-    Login = function (email,password){
+    Login(email,password){
 
         if(email == this.email && password == this.password){
             console.log("Login success !!")
