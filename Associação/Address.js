@@ -1,4 +1,4 @@
-class Adrdress {
+class Address {
     constructor(street,number, city,state){
         this.street = street
         this.number = number
@@ -6,9 +6,9 @@ class Adrdress {
         this.state = state
     }
 
-    fullAdrees(){
+    fullAddrees(){
         return `Rua ${this.street}, n° ${this.number}. ${this.city}. ${this.state}`
     }
 }
 
-module.exports = Adrdress
+module.exports = Address

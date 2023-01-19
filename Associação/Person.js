@@ -1,7 +1,10 @@
+const Address = require("./Address")
+
+
 class Person{
-    constructor(name, adrres){
+    constructor(name,street,number, city,state){
         this.name = name
-        this.adrres = adrres
+        this.adrres = new Address(street,number, city,state)
     }
 }
 module.exports = Person
