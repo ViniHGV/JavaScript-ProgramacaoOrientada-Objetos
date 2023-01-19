@@ -5,7 +5,7 @@ class CriarConta {
     }
 }
 
-//Herança
+//Herança POO
 class Logar extends CriarConta { }
 
 const Nvg = new CriarConta("Nvg@gmail.com", "1234")
