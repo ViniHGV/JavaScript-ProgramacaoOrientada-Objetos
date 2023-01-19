@@ -1,10 +1,10 @@
 class User{
-    constructor(){
+    constructor(fullname,email,password){
         this.fullname = fullname
         this.email = email
         this.password = password
     }
-    Login = function (email,senha){
+    Login = function (email,password){
 
         if(email == this.email && password == this.password){
             console.log("Login success !!")
@@ -13,3 +13,9 @@ class User{
         }
     }
 }
+
+const Vns = new User("Vinicius", "Vns@gmail.com", "1234")
+
+
+Vns.Login("Vns@gmail.com", "1234")
+console.log(Vns)
